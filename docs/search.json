@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chapter 5: Probability",
+    "section": "",
+    "text": "NoteRandomness\n\n\n\n\nRandom means having no predictable pattern.\nHumans are not good at identifying truly random samples or random experiments.\nTechnology is typically used to simulate randomness.\n\n\n\n\n\n\n\n\n\nNoteProbability\n\n\n\n\nProbability is used to measure how often random events occur.\nThere are two types of probability:\n\nTheoretical probability: Computed using mathematical rules.\nEmpirical probability: Probabilities from observations/experiments.\n\n\n\n\n\n\n\n\n\n\nNoteTheoretical Probability\n\n\n\n\nHow often an event happens if you repeat the experiment over and over.\nThe relative frequency at which an event occurs after infinitely many repetitions.\n\n\n\n\n\n\n\n\n\nNoteEmpirical Probability\n\n\n\n\nRelative frequencies based on experiments or observations of real-life processes.\n\n\n\n\n\n\n\n\n\nTipExample 5.1.1. (a) Theoretical or Empirical?**\n\n\n\n\nQuestionAnswer\n\n\nYour friend claims that the probability of getting a 6 when rolling a six-sided die is \\(\\frac{1}{6}\\) because the die is equally likely to land on any of the six sides.\n\n\nThis is a theoretic probability, since the claim was made without performing any experiments.\n\n\n\n\n\n\n\n\n\n\n\nTipExample 5.1.1. (b) Theoretical or Empirical?**\n\n\n\n\nQuestionAnswer\n\n\nA classmate was trying to figure out the probability of getting three heads when flipping three coins. He flipped three coins ten times, and in one of those ten times, all three coins landed heads up. On the basis of this outcome, he claims that the probability of three heads on one flip is \\(\\frac{1}{10}\\), or 10%.\n\n\nThis is a empirical probability, because the probability was determined from an experiment.\n\n\n\n\n\n\n\n\n\n\n\nImportantRemarks.\n\n\n\n\nA theoretical probability is exactly one value.\nEmpirical probabilities can change with every experiment.\n\n\n\n\n\n\n\n\n\nNoteWhy Two Probability Models?\n\n\n\n\n[Theoretical] probabilities may be difficult to compute; however, [empirical] probabilities can help us estimate [theoretical] probabilities.\nWe cannot always trust a [theoretical] probability model as it may be based on faulty assumptions. [Empirical] probabilities can help us verify or refute an [incorrect theoretical] value.\n\n\n\n\n\n\n\n\n\nNoteSimulations\n\n\n\nSimulations are [experiments] used to produce [empirical] probabilities."
+  },
+  {
+    "objectID": "index.html#section-5.1.-what-is-randomness",
+    "href": "index.html#section-5.1.-what-is-randomness",
+    "title": "Chapter 5: Probability",
+    "section": "",
+    "text": "NoteRandomness\n\n\n\n\nRandom means having no predictable pattern.\nHumans are not good at identifying truly random samples or random experiments.\nTechnology is typically used to simulate randomness.\n\n\n\n\n\n\n\n\n\nNoteProbability\n\n\n\n\nProbability is used to measure how often random events occur.\nThere are two types of probability:\n\nTheoretical probability: Computed using mathematical rules.\nEmpirical probability: Probabilities from observations/experiments.\n\n\n\n\n\n\n\n\n\n\nNoteTheoretical Probability\n\n\n\n\nHow often an event happens if you repeat the experiment over and over.\nThe relative frequency at which an event occurs after infinitely many repetitions.\n\n\n\n\n\n\n\n\n\nNoteEmpirical Probability\n\n\n\n\nRelative frequencies based on experiments or observations of real-life processes.\n\n\n\n\n\n\n\n\n\nTipExample 5.1.1. (a) Theoretical or Empirical?**\n\n\n\n\nQuestionAnswer\n\n\nYour friend claims that the probability of getting a 6 when rolling a six-sided die is \\(\\frac{1}{6}\\) because the die is equally likely to land on any of the six sides.\n\n\nThis is a theoretic probability, since the claim was made without performing any experiments.\n\n\n\n\n\n\n\n\n\n\n\nTipExample 5.1.1. (b) Theoretical or Empirical?**\n\n\n\n\nQuestionAnswer\n\n\nA classmate was trying to figure out the probability of getting three heads when flipping three coins. He flipped three coins ten times, and in one of those ten times, all three coins landed heads up. On the basis of this outcome, he claims that the probability of three heads on one flip is \\(\\frac{1}{10}\\), or 10%.\n\n\nThis is a empirical probability, because the probability was determined from an experiment.\n\n\n\n\n\n\n\n\n\n\n\nImportantRemarks.\n\n\n\n\nA theoretical probability is exactly one value.\nEmpirical probabilities can change with every experiment.\n\n\n\n\n\n\n\n\n\nNoteWhy Two Probability Models?\n\n\n\n\n[Theoretical] probabilities may be difficult to compute; however, [empirical] probabilities can help us estimate [theoretical] probabilities.\nWe cannot always trust a [theoretical] probability model as it may be based on faulty assumptions. [Empirical] probabilities can help us verify or refute an [incorrect theoretical] value.\n\n\n\n\n\n\n\n\n\nNoteSimulations\n\n\n\nSimulations are [experiments] used to produce [empirical] probabilities."
+  },
+  {
+    "objectID": "index.html#section-5.2.-finding-theoretical-probabilities",
+    "href": "index.html#section-5.2.-finding-theoretical-probabilities",
+    "title": "Chapter 5: Probability",
+    "section": "Section 5.2. Finding Theoretical Probabilities",
+    "text": "Section 5.2. Finding Theoretical Probabilities\n\n\n\n\n\n\nNoteGoals\n\n\n\n\nFind the theoretical probabilities of equally likely outcomes.\nFind the probability of the outcome of an event.\nUse basic probability laws.\n\n\n\n\n\n\n\n\n\nNoteEvents\n\n\n\n\nAn event is a set of outcome of an experiment to which a probability is assigned.\nWe use uppercase Latin letters to denote events.\nThe probability of an event \\(A\\) is denoted by \\(P(A)\\)."
+  }
+]
