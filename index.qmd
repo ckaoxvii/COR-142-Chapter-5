@@ -93,3 +93,10 @@ A classmate was trying to figure out the probability of getting three heads when
 [This is a *empirical probability*, because the probability was determined from an experiment.]{style='color:red'}
 ::::
 :::
+
+::: {.callout-important appearance="default" icon="false"}
+## Remarks.
+
+1. [**A theoretical** probability is exactly **one value**.]{style='color:red'}
+2. [**Empirical** probabilities can change with every experiment.]{style='color:red'}
+:::
