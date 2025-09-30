@@ -1,0 +1,95 @@
+---
+title: "Chapter 5: Probability"
+subtitle: "COR 142 C"
+author: "Dr. Kao"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    embed-resources: true
+    css: styles.css
+---
+
+```{r}
+#| include: false
+
+library(dplyr)
+
+library(ggplot2)
+
+library(janitor)
+
+library(palmerpenguins)
+
+library(plotly)
+
+library(crosstalk)
+
+library(shiny)
+
+library(bslib)
+
+library(DT)
+
+library(scales)
+```
+
+## Section 5.1. What is Randomness?
+
+::: {.callout-note appearance="default" icon="false"}
+## Randomness
+
+-   Random means having [**no predictable pattern**]{style="color:red"}.
+-   Humans are not good at identifying truly random samples or random experiments.
+-   Technology is typically used to *simulate* randomness.
+:::
+
+::: {.callout-note appearance="default" icon="false"}
+## Probability
+
+-   Probability is used to measure [**how often random events occur**]{style="color:red"}.
+-   There are two types of probability:
+    a.  [**Theoretical probability: Computed using mathematical rules.**]{style="color:red"}
+    b.  [**Empirical probability: Probabilities from observations/experiments.**]{style="color:red"}
+:::
+
+::: {.callout-note appearance="default" icon="false"}
+## Theoretical Probability
+
+-   [**How often an event happens if you repeat the experiment over and over.**]{style="color:red"}
+-   The relative frequency at which an event occurs after [**infinitely many repetitions**]{style="color:red"}.
+:::
+
+::: {.callout-note appearance="default" icon="false"}
+## Empirical Probability
+
+-   Relative frequencies based on [**experiments**]{style="color:red"} or [**observations**]{style="color:red"} of real-life processes.
+:::
+
+::: {.callout-tip appearance="default" icon="false"}
+## Example 5.1.1. (a) Theoretical or Empirical?**
+
+:::: {.panel-tabset}
+## Question
+
+Your friend claims that the probability of getting a 6 when rolling a six-sided die is $\frac{1}{6}$ because the die is equally likely to land on any of the six sides.
+
+## Answer
+
+[This is a *theoretic probability*, since the claim was made without performing any experiments.]{style='color:red'}
+::::
+:::
+
+::: {.callout-tip appearance="default" icon="false"}
+## Example 5.1.1. (b) Theoretical or Empirical?**
+
+:::: {.panel-tabset}
+## Question
+
+A classmate was trying to figure out the probability of getting three heads when flipping three coins. He flipped three coins ten times, and in one of those ten times, all three coins landed heads up. On the basis of this outcome, he claims that the probability of three heads on one flip is $\frac{1}{10}$, or 10%.
+
+## Answer
+
+[This is a *empirical probability*, because the probability was determined from an experiment.]{style='color:red'}
+::::
+:::
