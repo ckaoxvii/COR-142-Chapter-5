@@ -100,3 +100,10 @@ A classmate was trying to figure out the probability of getting three heads when
 1. [**A theoretical** probability is exactly **one value**.]{style='color:red'}
 2. [**Empirical** probabilities can change with every experiment.]{style='color:red'}
 :::
+
+::: {.callout-note appearance='default' icon='false'}
+## Why Two Probability Models?
+
+* [**Theoretical**] probabilities may be difficult to compute; however, [**empirical**] probabilities can help us estimate [**theoretical**] probabilities.
+* We cannot always trust a [**theoretical**] probability model as it may be based on faulty assumptions. [**Empirical**] probabilities can help us verify or refute an [**incorrect theoretical**] value.
+:::
