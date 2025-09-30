@@ -116,3 +116,18 @@ Simulations are [**experiments**] used to produce [**empirical**] probabilities.
 
 ## Section 5.2. Finding Theoretical Probabilities
 
+::: {.callout-note appearance="default" icon="false"}
+## Goals
+
+* Find the theoretical probabilities of [**equally likely outcomes**.]{style='color:red'}
+* Find the probability of the [**outcome**]{style='color:red'} of an event.
+* Use basic probability laws.
+:::
+
+::: {.callout-note appearance='default' icon='false'}
+## Events
+
+* An _event_ is a set of [**outcome**]{style='color:red'} of an experiment to which a probability is assigned.
+* We use uppercase Latin letters to denote events.
+* The probability of an event $A$ is denoted by [$P(A)$]{style='color:red'}.
+:::
