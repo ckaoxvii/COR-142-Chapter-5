@@ -6406,8 +6406,8 @@ window.Quarto = {
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>The complement of an event <span class="math inline">\(A\)</span> is the event that <span style="color:red"><strong><span class="math inline">\(A\)</span> does not happen</strong></span>.</li>
-<li>The complement of <span class="math inline">\(A\)</span> is denoted by <span style="color:red"><strong><span class="math inline">\(A^\complement\)</span></strong></span>.</li>
+<li>The complement of an event <span class="math inline">\(A\)</span> is the event that <span style="color:red"><span class="math inline">\(A\)</span> does not happen</span>.</li>
+<li>The complement of <span class="math inline">\(A\)</span> is denoted by <span style="color:red"><span class="math inline">\(A^\complement\)</span></span>.</li>
 </ul>
 </div>
 </div>
@@ -6499,7 +6499,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>An event belonging to “<span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>” must belong to <span style="color:red"><strong>both <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span></strong></span>.</p>
+<p>An event belonging to “<span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>” must belong to <span style="color:red"><strong>both</strong> <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span></span>.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
@@ -6512,7 +6512,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>An event belonging to “<span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>” must belong to <span style="color:red"><strong>either <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>, or both</strong></span>.</p>
+<p>An event belonging to “<span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>” must belong to <span style="color:red"><strong>either</strong> <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>, or both</span>.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
@@ -6590,7 +6590,7 @@ window.Quarto = {
 <p>Let <span class="math inline">\(A\)</span> be the event that a hurricane hits St. Augustine next year. Suppose that <span class="math inline">\(P(A) = 0.60\)</span>. What is <span class="math inline">\(A^\complement\)</span> and what is its probability?</p>
 </div>
 <div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
-<p><span style="color:red"><strong><span class="math inline">\(A^\complement\)</span> is the event that no hurricane hits St. Augustine next year. Using the rule of complement,</strong></span> <span style="color:red"><span class="math display">\[
+<p><span style="color:red"><span class="math inline">\(A^\complement\)</span> is the event that no hurricane hits St. Augustine next year. Using the rule of complement,</span> <span style="color:red"><span class="math display">\[
   P(A^\complement) = 1 - P(A) = 1 - 0.6 = 0.4.
 \]</span></span></p>
 </div>
@@ -6717,7 +6717,62 @@ window.Quarto = {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true" href>Question</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false" href>Answer</a></li></ul>
 <div class="tab-content">
 <div id="tabset-11-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-11-1-tab">
-
+<p>The following contingency (or two-way) table summarizes results from a fictitious survey that asked about political party affiliation and who they supported in the 2024 Presidential Election.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 25%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Democrat</strong></td>
+<td><strong>Republican</strong></td>
+<td><strong>Other</strong></td>
+<td><strong>Total</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Harris</strong></td>
+<td>502</td>
+<td>224</td>
+<td>204</td>
+<td><span style="color:red"><strong>930</strong></span></td>
+</tr>
+<tr class="odd">
+<td><strong>Trump</strong></td>
+<td>209</td>
+<td>524</td>
+<td>312</td>
+<td><span style="color:red"><strong>1045</strong></span></td>
+</tr>
+<tr class="even">
+<td><strong>Other</strong></td>
+<td>110</td>
+<td>412</td>
+<td>305</td>
+<td><span style="color:red"><strong>827</strong></span></td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><span style="color:red"><strong>821</strong></span></td>
+<td><span style="color:red"><strong>1160</strong></span></td>
+<td><span style="color:red"><strong>821</strong></span></td>
+<td><span style="color:red"><strong>2802</strong></span></td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li>Complete the contingency table.</li>
+<li>What is the probability of a randomly selected person who is a Democrat?</li>
+<li>What is the probability of a randomly selected person who voted for Trump?</li>
+<li>What is the probability that a person is Democrat and a Harris voter?</li>
+<li>What is the probability that a voter is either a Democrat or a Republican?</li>
+<li>What is the probability that a person is either a Republican or a Trump voter?</li>
+<li>Which of these events are mutually exclusive?</li>
+</ol>
 </div>
 <div id="tabset-11-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-2-tab">
 
