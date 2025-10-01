@@ -6847,12 +6847,19 @@ window.Quarto = {
 </ol>
 </div>
 <div id="tabset-13-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-13-2-tab">
-<p>[Denote: <span class="math display">\[
+<p>[First observe that there are three mutually exclusive events in this problem: <span class="math display">\[
 \begin{align}
   A &amp;= \text{ event of making &lt; 5 mistakes},\\
-  B &amp;= \text{ event of making 5 to 11 mistakes, inclusively}
+  B &amp;= \text{ event of making 5 to 11 mistakes, inclusively},\\
+  C &amp;= \text{ event of making &gt; 11 mistakes}
 \end{align}
-\]</span><br> a.</p>
+\]</span><br> a. With <span class="math inline">\(P(A) = 0.34\)</span> and <span class="math inline">\(P(B) = 0.18\)</span>. By the property of probability, we know that <span class="math display">\[
+  P(A) + P(B) + P(C) = 1 \implies P(C) = 1 - (P(A) + P(B)) = 1 - (0.34 + 0.18) = 0.48
+\]</span> b. The event of a student making 5 or more mistakes is event <span class="math inline">\(B\)</span> and event <span class="math inline">\(C\)</span>. So <span class="math display">\[
+  P(B) + P(C) = 0.18 + 0.48 = 0.66
+\]</span> c. The event of a student making <em>at most</em> 11 mistakes is event <span class="math inline">\(A\)</span> and event <span class="math inline">\(B\)</span>. So <span class="math display">\[
+  P(A) + P(B) = 0.34 + 0.18 = 0.52
+\]</span> d. The complement event to making more than 11 mistakes is making at most 11 mistakes, which is event <span class="math inline">\(A\)</span> and event <span class="math inline">\(B\)</span>.</p>
 <p>]{style=‘color:red’}</p>
 </div>
 </div>
