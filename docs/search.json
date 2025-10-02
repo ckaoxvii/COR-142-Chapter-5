@@ -46,6 +46,6 @@
     "href": "index.html#section-5.3-examples",
     "title": "Chapter 5: Probability",
     "section": "Section 5.3 Examples",
-    "text": "Section 5.3 Examples"
+    "text": "Section 5.3 Examples\n\n\n\n\n\n\nTipExample 1\n\n\n\n\nQuestionAnswer\n\n\nUse the contingency table below to find the following probabilities.\n\n\\(P(\\text{high income} \\textbf{and} \\text{college or higher})\\)\n\\(P(\\text{high income} \\textbf{given that} \\text{college or higher})\\)\n\n\n\n\n\n\n\n\n\n\n\n\nLess than HS\nHS only\nCollege or Higher\nTotal\n\n\n\n\nLow Income\n62\n58\n44\n164\n\n\nAverage Income\n41\n32\n60\n133\n\n\nHigh Income\n12\n20\n77\n109\n\n\nTotal\n115\n110\n181\n406\n\n\n\n\n\na. There are 77 out of 406 who are of high income and have a college education or higher. \\[\n  P(\\text{high income} \\textbf{and} \\text{college or higher}) = \\frac{77}{406}\n\\]"
   }
 ]
